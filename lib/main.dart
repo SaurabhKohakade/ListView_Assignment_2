@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         margin: EdgeInsets.fromLTRB(50, 30, 50, 10),
                         child: TextFormField(
                           decoration: const InputDecoration(          
-                          hintText: "Enter Username ",
+                          hintText: "Enter email address ",
                           ),
 
                           validator: (value) {
@@ -104,6 +104,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Container(
                       margin: const EdgeInsets.fromLTRB(50, 30, 50, 10),
                       child: TextFormField(
+
+                        obscureText: true,
 
                          decoration: const InputDecoration(              
                           hintText: "Password",
